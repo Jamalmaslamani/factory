@@ -2,18 +2,14 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>المسلماني والحكواتي | Trusted Manufacturer in Amman</title>
+  <title>المسلماني والحكواتي | الرئيسية</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Language Toggle -->
-  <div class="lang-toggle">
-    <button onclick="setLanguage('ar')">العربية</button>
-    <button onclick="setLanguage('en')">English</button>
-  </div>
+  <!-- Navbar -->
+  <?php include 'header.html'; ?>
 
-  <!-- Hero Section -->
+  <!-- Hero -->
   <header class="hero">
     <h1 id="company-name">المسلماني والحكواتي</h1>
     <p id="slogan">مصنع موثوق في عمان</p>
@@ -22,15 +18,30 @@
     <button onclick="location.href='services.html'">اطلب عرض سعر</button>
   </header>
 
-  <!-- Quick Contact -->
+  <!-- Featured Services -->
+  <section class="services-preview">
+    <h2>خدماتنا</h2>
+    <p>تصنيع حسب الطلب | ضبط الجودة | التسليم في الوقت المحدد</p>
+  </section>
+
+  <!-- Reviews Preview -->
+  <section class="reviews-preview">
+    <h2>آراء العملاء</h2>
+    <p>"أفضل مصنع في عمان!" ⭐⭐⭐⭐⭐</p>
+  </section>
+
+  <!-- Contact Quick -->
   <section class="contact-info">
     <p>📞 +962 7 9646 2012</p>
     <p>📍 Zeid Ben Ad-Duthaynah St., Amman 11623, Jordan</p>
     <iframe src="https://www.google.com/maps?q=WW65+JP+Amman&output=embed"></iframe>
   </section>
 
-  <!-- WhatsApp Button -->
+  <!-- WhatsApp -->
   <a href="https://wa.me/962796462012" class="whatsapp-btn">💬 WhatsApp</a>
+
+  <!-- Footer -->
+  <?php include 'footer.html'; ?>
 
   <script src="script.js"></script>
 </body>
