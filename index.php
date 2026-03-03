@@ -14,8 +14,8 @@
     <h1 id="company-name">المسلماني والحكواتي</h1>
     <p id="slogan">مصنع موثوق في عمان</p>
     <div class="rating">⭐⭐⭐⭐⭐ (5.0)</div>
-    <button onclick="location.href='contact.html'">اتصل بنا</button>
-    <button onclick="location.href='services.html'">اطلب عرض سعر</button>
+    <button onclick="location.href='contact.php'">اتصل بنا</button>
+    <button onclick="location.href='services.php'">اطلب عرض سعر</button>
   </header>
 
   <!-- Featured Services -->
